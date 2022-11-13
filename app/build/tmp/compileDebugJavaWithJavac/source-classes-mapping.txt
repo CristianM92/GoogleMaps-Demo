@@ -1,0 +1,2 @@
+com/android/mapcurrentlocation/BuildConfig.java
+ com.android.mapcurrentlocation.BuildConfig

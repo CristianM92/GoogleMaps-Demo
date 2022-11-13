@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.mapwithcurrentlocationkotlin"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:6:5-78
+12-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:7:22-78
+14
+15    <!-- Include required permissions for Google Maps API to run. -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\31645\Desktop\Gradle User Home\Gradle User Home - Qr Barcode Ciorna\caches\transforms-2\files-2.1\4507540fccbede83739ff229a8cb9124\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\31645\Desktop\Gradle User Home\Gradle User Home - Qr Barcode Ciorna\caches\transforms-2\files-2.1\4507540fccbede83739ff229a8cb9124\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\31645\Desktop\Gradle User Home\Gradle User Home - Qr Barcode Ciorna\caches\transforms-2\files-2.1\4507540fccbede83739ff229a8cb9124\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\31645\Desktop\Gradle User Home\Gradle User Home - Qr Barcode Ciorna\caches\transforms-2\files-2.1\4507540fccbede83739ff229a8cb9124\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\31645\Desktop\Gradle User Home\Gradle User Home - Qr Barcode Ciorna\caches\transforms-2\files-2.1\4507540fccbede83739ff229a8cb9124\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+21
+22    <application
+22-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:9:5-30:19
+23        android:allowBackup="true"
+23-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:10:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.3.2] C:\Users\31645\Desktop\Gradle User Home\Gradle User Home - Qr Barcode Ciorna\caches\transforms-2\files-2.1\8dec601f45437c957e89ca33d688e76a\core-1.3.2\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:11:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:12:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:13:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:14:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.MapWithCurrentLocationKotlin" >
+32-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:15:9-66
+33        <meta-data
+33-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:17:9-19:55
+34            android:name="com.google.android.geo.API_KEY"
+34-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:18:13-58
+35            android:value="@string/google_maps_key" />
+35-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:19:13-52
+36
+37        <activity
+37-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:21:9-29:20
+38            android:name="com.android.mapcurrentlocation.MapsActivity"
+38-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:22:13-41
+39            android:label="@string/title_activity_maps" >
+39-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:23:13-56
+40            <intent-filter>
+40-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:24:13-28:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:25:17-69
+41-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:25:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:27:17-77
+43-->C:\Users\31645\Desktop\AndroidStudioProjects\GoogleMaps - Demo\app\src\main\AndroidManifest.xml:27:27-74
+44            </intent-filter>
+45        </activity>
+46        <!-- Needs to be explicitly declared on P+ -->
+47        <uses-library
+47-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\31645\Desktop\Gradle User Home\Gradle User Home - Qr Barcode Ciorna\caches\transforms-2\files-2.1\4507540fccbede83739ff229a8cb9124\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+48            android:name="org.apache.http.legacy"
+48-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\31645\Desktop\Gradle User Home\Gradle User Home - Qr Barcode Ciorna\caches\transforms-2\files-2.1\4507540fccbede83739ff229a8cb9124\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+49            android:required="false" />
+49-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\31645\Desktop\Gradle User Home\Gradle User Home - Qr Barcode Ciorna\caches\transforms-2\files-2.1\4507540fccbede83739ff229a8cb9124\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+50
+51        <activity
+51-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\31645\Desktop\Gradle User Home\Gradle User Home - Qr Barcode Ciorna\caches\transforms-2\files-2.1\6eea8acd60cacf2f42bfea6badbb0abf\jetified-play-services-base-17.3.0\AndroidManifest.xml:23:9-26:75
+52            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+52-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\31645\Desktop\Gradle User Home\Gradle User Home - Qr Barcode Ciorna\caches\transforms-2\files-2.1\6eea8acd60cacf2f42bfea6badbb0abf\jetified-play-services-base-17.3.0\AndroidManifest.xml:24:13-79
+53            android:exported="false"
+53-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\31645\Desktop\Gradle User Home\Gradle User Home - Qr Barcode Ciorna\caches\transforms-2\files-2.1\6eea8acd60cacf2f42bfea6badbb0abf\jetified-play-services-base-17.3.0\AndroidManifest.xml:25:13-37
+54            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+54-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\31645\Desktop\Gradle User Home\Gradle User Home - Qr Barcode Ciorna\caches\transforms-2\files-2.1\6eea8acd60cacf2f42bfea6badbb0abf\jetified-play-services-base-17.3.0\AndroidManifest.xml:26:13-72
+55
+56        <meta-data
+56-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\31645\Desktop\Gradle User Home\Gradle User Home - Qr Barcode Ciorna\caches\transforms-2\files-2.1\bbacab5225bc1af87be88c2888013766\jetified-play-services-basement-17.3.0\AndroidManifest.xml:23:9-25:69
+57            android:name="com.google.android.gms.version"
+57-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\31645\Desktop\Gradle User Home\Gradle User Home - Qr Barcode Ciorna\caches\transforms-2\files-2.1\bbacab5225bc1af87be88c2888013766\jetified-play-services-basement-17.3.0\AndroidManifest.xml:24:13-58
+58            android:value="@integer/google_play_services_version" />
+58-->[com.google.android.gms:play-services-basement:17.3.0] C:\Users\31645\Desktop\Gradle User Home\Gradle User Home - Qr Barcode Ciorna\caches\transforms-2\files-2.1\bbacab5225bc1af87be88c2888013766\jetified-play-services-basement-17.3.0\AndroidManifest.xml:25:13-66
+59    </application>
+60
+61</manifest>

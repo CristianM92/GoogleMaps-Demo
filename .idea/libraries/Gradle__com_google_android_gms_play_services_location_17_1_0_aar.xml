@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-location:17.1.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Gradle User Home/Gradle User Home - Qr Barcode Ciorna/caches/transforms-2/files-2.1/f0644f5a0979c34076a53f93196c7531/jetified-play-services-location-17.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Gradle User Home/Gradle User Home - Qr Barcode Ciorna/caches/transforms-2/files-2.1/f0644f5a0979c34076a53f93196c7531/jetified-play-services-location-17.1.0/res" />
+      <root url="file://$PROJECT_DIR$/../../Gradle User Home/Gradle User Home - Qr Barcode Ciorna/caches/transforms-2/files-2.1/f0644f5a0979c34076a53f93196c7531/jetified-play-services-location-17.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../Gradle User Home/Gradle User Home - Qr Barcode Ciorna/caches/modules-2/files-2.1/com.google.android.gms/play-services-location/17.1.0/6fde1462ab8c9d41ca3ef5c90e7b98ccd4163b6d/play-services-location-17.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
